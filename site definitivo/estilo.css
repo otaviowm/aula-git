@@ -1,0 +1,102 @@
+.cabeca{
+    align-items: center;
+    display: flex;
+    border: solid black 1px;
+    height: 20%;
+    width: 100%;
+    background-color: #012340;
+}
+.fimdacabeca{
+    padding-left: 25%;
+}
+.fimdacabeca{
+    padding-left: 10%;
+}
+.produtos {
+    background-color: rgb(243, 243, 162);
+    display: flex;
+    height: 40%;
+    width: 100%;
+    flex-wrap:wrap;
+}
+.produto {
+    margin: 5%;
+    margin-left: 5%;
+    border: solid black 1px;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    color:rgb(243, 243, 162); 
+}
+.fonte {
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+.linha {
+    display: flex;
+    height: 100%;
+    width:3000px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color:rgb(243, 243, 162);
+}
+.borda {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color:rgb(243, 243, 162);
+}
+.contatoprincipal {
+    align-items: center;
+    border: solid black 1px;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.forma {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    width: 70%;
+}
+.fim {
+    align-items: end;
+}
+body{
+    background-color:rgb(243, 243, 162);
+}
+a{
+    color: white;
+}
+h2{
+    text-shadow: 1000px;;
+    color: white;
+}
+.paginadeproduto {
+    display: flex;
+    border: solid black 1px;
+}
+.paginadeprodutolateral{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+}
+.compra {
+    background-color: orangered;
+    border: solid black 1px;
+    align-items: end;
+}
+.promosoesordem {
+    align-items: center;
+    display: flex;
+    height: 10%;
+    flex-direction: row;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.promosoes {
+    border: solid black 1px;
+    width: 50%;
+    background-color: white;
+}

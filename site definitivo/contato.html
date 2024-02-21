@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>
+            contato
+        </title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="cabeca">
+            <h2 class="fonte">meu site</h2>
+            <div class="fimdacabeca">
+                <div class="fimdacabeca1"></div>
+                    <h1><a href="index.html">home</a></h1>
+                </div>
+                <div class="fimdacabeca">
+                    <h1><a href="produtos.html">produtos</a></h1>
+                </div>
+                <div class="fimdacabeca">
+                    <h1><a href="#">contato</a></h1>
+                </div>    
+            </div>
+        </div>
+        <div class="borda">
+            <form class="contatoprincipal">
+                <form class="forma">
+                    <h2>cadastro</h2>
+                    <label for="pnome">Primeiro nome:</label>
+                <input
+                   type="text"
+                   id="pnome"
+                   name="pnome"
+                   placeholder="Digite seu primeiro nome"
+                   required
+                />
+                <label for="snome">Segundo Nome:</label>
+                <input
+                   type="text"
+                   id="snome"
+                   name="snome"
+                   placeholder="Digite seu segundo nome"
+                   required
+                />
+                <label for="senha">senha:</label>
+                <input
+                   type="password"
+                   id="senha"
+                   name="senha"
+                   required
+                />
+                <label for="email">email:</label>
+                <input
+                   type="email"
+                   id="email"
+                   name="email"
+                   placeholder="seuemail@email.com"
+                   required
+                />
+                <label for="genero">genero:</label>
+                <select id="genero" name="genero" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="masculino">masculino</option>
+                    <option value="feminino">feminino</option>
+                    <option value="outro">outro</option>
+                  </select>
+                  <label for="nacimento">Nacimento:</label>
+                <input
+                   type="date"
+                   id="nacimento"
+                   name="nacimento"
+                   required/>
+                   <form class="fim">
+                    <button type="submit">Enviar</button>
+                   </form>
+                </form>         
+            </form>
+        </div>  
+    </body>
+</html>
